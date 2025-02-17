@@ -1,4 +1,4 @@
-package co.com.bancolombia.consumer;
+package co.com.bancolombia.consumer.model;
 
 import lombok.Builder;
 import lombok.AllArgsConstructor;
@@ -13,6 +13,7 @@ import lombok.Setter;
 @Builder(toBuilder = true)
 public class ObjectResponse {
 
-    private String state;
+    private MetaObject meta;
+    private DataObject data;
 
 }

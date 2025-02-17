@@ -1,5 +1,6 @@
 package co.com.bancolombia.consumer;
 
+import co.com.bancolombia.consumer.model.ObjectResponse;
 import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
